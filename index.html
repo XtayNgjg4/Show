@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOW</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <style>
+        @media (min-width:1200px) {
+            html {
+                position: fixed;
+                overflow-y: hidden;
+                -webkit-overflow-scrolling: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_five"></div>
+                <div class="object" id="object_six"></div>
+                <div class="object" id="object_seven"></div>
+                <div class="object" id="object_eight"></div>
+                <div class="object" id="object_big"></div>
+            </div>
+            <div class="loadingTxt">Loading...</div>
+        </div>
+    </div>
+    <div id="dowebok">
+        <div class="section" style="background: url(images/abbg.jpg)">
+            <div class="container">
+                <div style="font-size: 26px; text-align: center; color: #ffffff; margin: 30px 0;">网站项目</div>
+                <div class="row pc">
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://www.techsize.com/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/ps30e029607c629321-2d54-45ac-90c8-485685478bea?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">德赛斯</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://mzs.yunmai.net/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/ps6289fe40eea5946d-abf6-4023-b1ab-3c530c501210?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">美钻说</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://www.kangxigr.com/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/psc2e74bcb7e6700c9-9e86-4434-ac8b-47d58a35162b?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">康烯科技</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://www.hsglass.com.cn/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/pse8ef75e6da75578a-19f8-4d79-b6e9-b1b3096a944c?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">海盛玻璃机械有限公司</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://www.gdroro.com/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/psce54c23d765835bf-7823-49b3-8ecd-3e96c421439c?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">
+                                Forlssman“富士曼”</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://mengtian.gdniubang.com/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/ps2b4e13d9d6e4e3fd-0121-4e52-972c-49f68109b2c5?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">梦田创意</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://cn.gdkete.cn/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/ps9b19d9517235e9a7-db03-43bb-a3d2-a433f6d18a8e?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">广东科腾幕墙有限公司</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://www.cometal.cn/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/ps8a33a5c495dc4139-cae3-48c6-a6a5-5aee2836cd87?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">考迈拓</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mb">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="proItem">
+                                    <a href="http://www.techsize.com/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/ps30e029607c629321-2d54-45ac-90c8-485685478bea?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">德赛斯</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem">
+                                    <a href="http://mzs.yunmai.net/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/ps6289fe40eea5946d-abf6-4023-b1ab-3c530c501210?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">美钻说</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem ">
+                                    <a href="http://www.kangxigr.com/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/psc2e74bcb7e6700c9-9e86-4434-ac8b-47d58a35162b?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">康烯科技</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem ">
+                                    <a href="http://www.hsglass.com.cn/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/pse8ef75e6da75578a-19f8-4d79-b6e9-b1b3096a944c?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">海盛玻璃机械有限公司</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem">
+                                    <a href="http://www.gdroro.com/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/psce54c23d765835bf-7823-49b3-8ecd-3e96c421439c?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">
+                                            Forlssman“富士曼”</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem">
+                                    <a href="http://mengtian.gdniubang.com/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/ps2b4e13d9d6e4e3fd-0121-4e52-972c-49f68109b2c5?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">梦田创意</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem ">
+                                    <a href="http://cn.gdkete.cn/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/ps9b19d9517235e9a7-db03-43bb-a3d2-a433f6d18a8e?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">广东科腾幕墙有限公司</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem ">
+                                    <a href="http://www.cometal.cn/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/ps8a33a5c495dc4139-cae3-48c6-a6a5-5aee2836cd87?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">考迈拓</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" style="background: url(images/idxabbg.jpg)">
+            <div style="font-size: 26px; text-align: center; color: #000000; margin: 30px 0;">小程序项目</div>
+            <div class="container">
+                <div class="row pc">
+                    <div class="xItem col-lg-4 col-12">
+                        <a>
+                            <div class="xPic">
+                                <img src="images/x2.jpg" alt="">
+                                <div class="xbox">
+                                    <div class="xcon">
+                                        <div class="xname">新联粮油</div>
+                                        <div class="xtxt">
+                                            商城小程序，请在微信小程序搜索
+                                            <div>新联粮油</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xItem col-lg-4 col-12">
+                        <a>
+                            <div class="xPic">
+                                <img src="images/x1.jpg" alt="">
+                                <div class="xbox">
+                                    <div class="xcon">
+                                        <div class="xname">康烯科技</div>
+                                        <div class="xtxt">
+                                            请在微信小程序搜索
+                                            <div>康烯科技</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mb x">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/x2.jpg" alt="">
+                                <div class="xbox">
+                                    <div class="xcon">
+                                        <div class="xname">新联粮油</div>
+                                        <div class="xtxt">
+                                            商城小程序，请在微信小程序搜索
+                                            <div>新联粮油</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/x1.jpg" alt="">
+                                <div class="xbox">
+                                    <div class="xcon">
+                                        <div class="xname">康烯科技</div>
+                                        <div class="xtxt">
+                                            请在微信小程序搜索
+                                            <div>康烯科技</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" style="background: url(images/footerbg.jpg)">
+            <div class="container">
+                <div class="row pc">
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://www.sunten.com.cn/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/psed5483366901868c-26fb-400c-8124-addfc0e1d600?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">顺特电气设备有限公司</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://erosenbath.com/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/psf31efe87039ba67e-2a93-468e-87c8-c10da1eb74e0?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName"> Erosen Bath</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://175jin.com/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/psce5d7e44031fed01-768d-4f7e-9192-8f7eb9413b99?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">舞金网</div>
+                        </a>
+                    </div>
+                    <div class="proItem col-lg-3 col-md-6 col-12">
+                        <a href="http://ym.yunmai.net/" target="_black">
+                            <div class="proPic">
+                                <img src="https://alipic.lanhuapp.com/ps2e71595d5b7b8490-936c-45ef-b306-e178b7c6173b?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                    alt="">
+                            </div>
+                            <div class="proName">云迈互联</div>
+                        </a>
+                    </div>
+                   
+                </div>
+                <div class="mb">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="proItem col-lg-3 col-md-6 col-12">
+                                    <a href="http://www.sunten.com.cn/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/psed5483366901868c-26fb-400c-8124-addfc0e1d600?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">顺特电气设备有限公司</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem col-lg-3 col-md-6 col-12">
+                                    <a href="http://erosenbath.com/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/psf31efe87039ba67e-2a93-468e-87c8-c10da1eb74e0?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName"> Erosen Bath</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem col-lg-3 col-md-6 col-12">
+                                    <a href="http://175jin.com/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/psce5d7e44031fed01-768d-4f7e-9192-8f7eb9413b99?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">舞金网</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="proItem col-lg-3 col-md-6 col-12">
+                                    <a href="http://ym.yunmai.net/" target="_black">
+                                        <div class="proPic">
+                                            <img src="https://alipic.lanhuapp.com/ps2e71595d5b7b8490-936c-45ef-b306-e178b7c6173b?x-oss-process=image/resize,w_480|image/crop,x_0,y_0,w_480,h_360/format,webp"
+                                                alt="">
+                                        </div>
+                                        <div class="proName">云迈互联</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/global.js"></script>
+    <script>
+
+        $(function () {
+            $("#loading").delay(2000).fadeOut();
+            $("#loading-center").click(function () {
+                $("#loading").fadeOut(500);
+            })
+            $(".more").click(function () {
+                $.fn.fullpage.moveSectionDown();
+            })
+
+            $(window).resize(function () {
+                autoScrolling();
+            });
+            autoScrolling();
+
+        });
+        var swiper = new Swiper('.mb .swiper-container', {
+            speed: 800,
+            loop: true,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 16,
+            effect: 'slide',
+            pagination: {
+                el: '.mb .swiper-pagination',
+                clickable: true,
+            },
+        });
+
+
+    </script>
+</body>
+
+</html>
