@@ -31,7 +31,9 @@ img { vertical-align: middle;border-style: none;}
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
     transform: translateY(-5px);
 }
-
+.mb .swiper-pagination-bullet{background: #ffffff;}
+.mb  .swiper-pagination-bullets{    bottom: 0;}
+.x .swiper-pagination-bullet{background: #000000!important;}
 .xPic{
     position: relative;
     text-align: center;
@@ -52,6 +54,7 @@ img { vertical-align: middle;border-style: none;}
     transition: .6s;
 }
 .xItem a:hover .xbox{opacity: 1;}
+.x:hover .xbox{opacity: 1;}
 .xcon{
     position: absolute;
     top: 50%;
@@ -272,7 +275,7 @@ img { vertical-align: middle;border-style: none;}
 /*-----------------------loading----------------------*/
 @media (max-width: 1024px){
  .pc{display: none!important;}
-
+ .xname{margin-bottom: 0;}
  .mb{display: block;}
  .x img{max-width: 80%;margin: auto;}
  .x  .swiper-slide{text-align: center;}
