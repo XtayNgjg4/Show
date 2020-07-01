@@ -34,11 +34,11 @@ img { vertical-align: middle;border-style: none;}
 
 .xPic{
     position: relative;
+    text-align: center;
 }
 .xPic img{
-    width: 100%;
-    height: 600px;
-    object-fit: contain;
+    width: 160px;
+    height: 160px;
 }
 .xbox{
     position: absolute;
@@ -61,7 +61,7 @@ img { vertical-align: middle;border-style: none;}
 }
 .xname{
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .xtxt{
     font-size: 16px;
@@ -272,6 +272,7 @@ img { vertical-align: middle;border-style: none;}
 /*-----------------------loading----------------------*/
 @media (max-width: 1024px){
  .pc{display: none!important;}
+
  .mb{display: block;}
  .x img{max-width: 80%;margin: auto;}
  .x  .swiper-slide{text-align: center;}
